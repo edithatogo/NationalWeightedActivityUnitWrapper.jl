@@ -1,8 +1,8 @@
 using Test
-using NwauCore
+using NationalWeightedActivityUnitWrapper
 
 @testset "command assembly" begin
-    argv = NwauCore._build_argv(
+    argv = NationalWeightedActivityUnitWrapper._build_argv(
         "acute";
         input_csv = "input.csv",
         output_csv = "output.csv",

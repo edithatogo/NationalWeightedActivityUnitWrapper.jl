@@ -1,4 +1,4 @@
-module NwauCore
+module NationalWeightedActivityUnitWrapper
 
 export calculate, calculate_acute, calculate_ed, calculate_non_admitted
 

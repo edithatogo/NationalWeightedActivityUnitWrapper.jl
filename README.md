@@ -1,18 +1,18 @@
-# NwauCore
+# NationalWeightedActivityUnitWrapper
 
-`NwauCore` is a small Julia wrapper for the MCHS/NWAU command boundary.
+`NationalWeightedActivityUnitWrapper` is a small Julia wrapper for the MCHS/NWAU command boundary.
 It validates the input CSV, assembles the CLI invocation, and returns the generated output path.
 The package does not implement the calculation formulas itself.
 
 ## Purpose
 
 `NWAU` refers to the National Weighted Activity Unit workflow used by the surrounding tooling.
-`Core` is used here to indicate that this package is only the thin orchestration layer around that workflow, not the full calculator implementation.
+`NationalWeightedActivityUnitWrapper` is intentionally descriptive: it wraps the National Weighted Activity Unit command boundary and does not implement the calculator formulas itself.
 
 ## Minimal usage
 
 ```julia
-using NwauCore
+using NationalWeightedActivityUnitWrapper
 
 output_csv = calculate("acute";
     input_csv = "path/to/input.csv",

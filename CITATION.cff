@@ -1,0 +1,6 @@
+cff-version: 1.2.0
+message: If you use this repository, please cite it using the metadata in this file.
+title: NationalWeightedActivityUnitWrapper
+authors:
+- name: NationalWeightedActivityUnitWrapper project
+repository-code: https://github.com/edithatogo/NationalWeightedActivityUnitWrapper.jl
